@@ -1,26 +1,26 @@
 class Alint < Formula
   desc "Language-agnostic linter for repository structure and content"
   homepage "https://github.com/asamarts/alint"
-  version "0.14.1"
+  version "0.14.2"
   license any_of: ["Apache-2.0", "MIT"]
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/asamarts/alint/releases/download/v0.14.1/alint-v0.14.1-aarch64-apple-darwin.tar.gz"
-      sha256 "4f302328332ff9932a3f65faf214e222d46696511e19a3485f7d39f2f55b6b4d"
+      url "https://github.com/asamarts/alint/releases/download/v0.14.2/alint-v0.14.2-aarch64-apple-darwin.tar.gz"
+      sha256 "807d3da260c9695396c3746ee66f38d8c8021887a431cd25c3b53d8ce8fbecd0"
     else
-      url "https://github.com/asamarts/alint/releases/download/v0.14.1/alint-v0.14.1-x86_64-apple-darwin.tar.gz"
-      sha256 "e756ba60ea5d865bac606a518ffe8957da93def0334129cfa85b7a1fe0ca3386"
+      url "https://github.com/asamarts/alint/releases/download/v0.14.2/alint-v0.14.2-x86_64-apple-darwin.tar.gz"
+      sha256 "50b73421086f32dee85b494fe151f283da82a4cac80283069f20c4ef19237197"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/asamarts/alint/releases/download/v0.14.1/alint-v0.14.1-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "7fea929a4c788ea85f52cd81e3168ef54e87af86e79efe3485eb82ac8ed20164"
+      url "https://github.com/asamarts/alint/releases/download/v0.14.2/alint-v0.14.2-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "0ede46eb86f4a8d18e8bf62c35062b92e05635f039c46dca645377c16cc99bb1"
     else
-      url "https://github.com/asamarts/alint/releases/download/v0.14.1/alint-v0.14.1-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "b310a0a7138cb847cf47dad759afd5ec7295cc4eee1a68cb167a83bcd5f961c4"
+      url "https://github.com/asamarts/alint/releases/download/v0.14.2/alint-v0.14.2-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "a6cb8c08e17a9985a6622c4ddc45a1cc80992b0e7d0809204e3686e38dee2eb1"
     end
   end
 
